@@ -1,0 +1,33 @@
+=================================================
+Test Code for DBI Project #3 - Sorted File Driver
+=================================================
+
+1. What files are there in the package?
+   	main.cc
+	defs
+	cat1
+	TestAll.sh
+
+2. How to test it?
+
+	Incorporate main.cc in your Makefile. (Note:
+	main.cc has main function in it, so you may want to take out your main 
+	function). After you do make,you have to supply test number from 1 to 20 
+	for testing. The usage is:
+		./[Executable-Name] [Test-case# b/w 1-20]
+
+NOTE:
+-----
+* Timing information is recorded for Test 16 and Test 20
+* It is important that you select appropriate file path for the test data files.
+* When you run the same test case again and again (for testing reasons) make sure you 
+  remove old files created from its last run
+
+3. What to turn-in?
+
+	When its time for you to print the results of all test cases, you may use
+	the script "TestAll.sh". Redirect its output to a file.
+
+	The usage of the script is:
+		./TestAll.sh [Executable-Name] >& printMe.txt
+
